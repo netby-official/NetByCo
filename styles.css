@@ -1,33 +1,33 @@
-/* Google Fonts importálása */
+/* Google Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* Alap stílusok */
+/* Base Styles */
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #d1d1d1;
+    background-color: #f4f4f4;
     color: #333;
 }
 
 header {
-    background: #d1d1d1
-    color: #ffffff;
+    background: #fff;
+    color: #333;
     padding: 20px;
     text-align: center;
     position: sticky;
     top: 0;
     width: 100%;
     z-index: 1000;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: background 0.3s;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, box-shadow 0.3s;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2rem;
-    transition: transform 0.3s;
+    font-size: 2.5rem;
+    transition: transform 0.3s, color 0.3s;
 }
 
 nav ul {
@@ -44,65 +44,66 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: #333;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
     transition: color 0.3s, transform 0.3s;
 }
 
 nav ul li a:hover {
-    color: #FFD700; /* Arany sárga */
+    color: #007BFF;
     transform: scale(1.1);
 }
 
-/* Fő tartalom */
+/* Main Content */
 main {
     padding: 20px;
     margin: 20px auto;
-    max-width: 800px;
-    background: #ffffff; /* Fehér háttér */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    max-width: 900px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
     opacity: 0;
     animation: fadeIn 1s forwards;
 }
 
 main h2 {
-    color: #007BFF; /* Modern kék */
-    font-size: 1.8rem;
+    color: #007BFF;
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
 
 main a {
     display: inline-block;
     margin: 20px 0;
-    padding: 10px 20px;
-    background: #007BFF; /* Modern kék */
-    color: #ffffff;
+    padding: 12px 24px;
+    background: #007BFF;
+    color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 4px;
     transition: background 0.3s, transform 0.3s;
 }
 
 main a:hover {
-    background: #0056b3; /* Sötétebb kék */
+    background: #0056b3;
     transform: scale(1.05);
 }
 
-/* Szekciók */
+/* Sections */
 section {
     margin: 20px 0;
 }
 
 section h3 {
-    color: #007BFF; /* Modern kék */
-    font-size: 1.5rem;
+    color: #007BFF;
+    font-size: 1.6rem;
 }
 
 section p {
     margin: 10px 0;
 }
 
-/* Kapcsolat oldal */
+/* Contact Page */
 ul {
     list-style: none;
     padding: 0;
@@ -112,19 +113,19 @@ ul li {
     margin: 10px 0;
 }
 
-/* Lábjegyzet */
+/* Footer */
 footer {
     text-align: center;
     padding: 20px;
-    background: #007BFF; /* Modern kék */
-    color: #ffffff;
+    background: #007BFF;
+    color: #fff;
     position: relative;
     width: 100%;
     bottom: 0;
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Animációk */
+/* Animations */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -134,7 +135,7 @@ footer {
     }
 }
 
-/* Média lekérdezések */
+/* Media Queries */
 @media (max-width: 1024px) {
     main {
         margin: 10px;
@@ -146,15 +147,15 @@ footer {
     }
 
     header h1 {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     section h3 {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
 
     main h2 {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
 }
 
@@ -166,7 +167,7 @@ footer {
     }
 
     header h1 {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
 
     main {
@@ -174,11 +175,11 @@ footer {
     }
 
     main h2 {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
 
     section h3 {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 }
 
@@ -188,7 +189,7 @@ footer {
     }
 
     header h1 {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
 
     main {
@@ -196,11 +197,11 @@ footer {
     }
 
     main h2 {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     section h3 {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     footer {
