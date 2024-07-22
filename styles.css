@@ -7,12 +7,12 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
     color: #333;
 }
 
 header {
-    background: #35424a;
+    background: #007BFF; /* Modern kék */
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
@@ -40,7 +40,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 10px;
+    margin: 0;
 }
 
 nav ul li a {
@@ -51,7 +51,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #e8491d;
+    color: #FFD700; /* Arany sárga */
     transform: scale(1.1);
 }
 
@@ -60,7 +60,7 @@ main {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
-    background: #ffffff;
+    background: #ffffff; /* Fehér háttér */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     opacity: 0;
@@ -68,7 +68,7 @@ main {
 }
 
 main h2 {
-    color: #35424a;
+    color: #007BFF; /* Modern kék */
     font-size: 1.8rem;
 }
 
@@ -76,7 +76,7 @@ main a {
     display: inline-block;
     margin: 20px 0;
     padding: 10px 20px;
-    background: #35424a;
+    background: #007BFF; /* Modern kék */
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
@@ -84,7 +84,7 @@ main a {
 }
 
 main a:hover {
-    background: #e8491d;
+    background: #0056b3; /* Sötétebb kék */
     transform: scale(1.05);
 }
 
@@ -94,7 +94,7 @@ section {
 }
 
 section h3 {
-    color: #35424a;
+    color: #007BFF; /* Modern kék */
     font-size: 1.5rem;
 }
 
@@ -116,9 +116,9 @@ ul li {
 footer {
     text-align: center;
     padding: 20px;
-    background: #35424a;
+    background: #007BFF; /* Modern kék */
     color: #ffffff;
-    position: absolute;
+    position: relative;
     width: 100%;
     bottom: 0;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
