@@ -19,8 +19,6 @@ A céget **Csiba Zsombor** (NetBy) alapította, aki több éves tapasztalattal r
 
 Ha szeretne többet megtudni rólunk, vagy érdeklődik szolgáltatásaink iránt, kérjük, lépjen kapcsolatba velünk az alábbi elérhetőségek egyikén:
 
-- **Email**: info@netbyco.com
-- **Telefon**: +36 1 234 5678
-- **Cím**: 1234 Budapest, Webfejlesztő utca 1.
+> SOON
 
 Köszönjük, hogy ellátogatott a NetByCo oldalára!
